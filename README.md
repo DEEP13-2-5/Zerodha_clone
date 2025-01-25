@@ -1,36 +1,77 @@
-Zerodha Clone
+# Zerodha-Kite Clone
 
-Description:  
-The Zerodha Clone is a web-based trading and investment platform inspired by the original Zerodha platform. It allows users to simulate stock market operations, providing features like managing portfolios, placing orders, and monitoring investments. The application is designed for educational purposes and to showcase skills in modern web development.
+A clone of Zerodha Kite, a stock trading platform, built using modern web technologies to replicate its interface and functionalities.
 
-Features
-1. Dashboard: 
-   - Overview of user's funds, holdings, positions, and recent orders.
+## Features
+- Responsive and user-friendly UI similar to Zerodha Kite
+- Dashboard with real-time stock updates
+- Watchlist management
+- Buy/Sell order placement simulation
+- Interactive charts and technical indicators
+- Portfolio summary and holdings tracking
+- Authentication system (sign up, login, logout)
 
-2. Trading Operations
-   - Place buy/sell orders for stocks or funds.
-   - View order history and status.
+## Tech Stack
+- **Frontend:** React, Vite, Tailwind CSS
+-**Backend** EJS,Express.js,Node.js
+- **State Management:** Redux (if applicable)
+- **Data Visualization:** Chart.js / D3.js
+- **API Integration:** Fetching stock data using public APIs
 
-3. Portfolio Management:
-   - Display a summary of holdings, profits/losses, and net worth.
+## Installation
 
-4. Watchlist:
-   - Add and monitor favorite stocks or funds.
+### Prerequisites
+Ensure you have the following installed:
+- Node.js
+- npm or yarn
 
-5. User Authentication:
-   - Secure sign-up and login functionality.
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DEEP13-2-5/Zerodha-Kite-Clone.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Zerodha-Kite-Clone
+   ```
+3. Install dependencies:
+   ```bash
+   npm install  # or yarn install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev  # or yarn dev
+   ```
+5. Open your browser and navigate to `http://localhost:5173`.
 
-6. Responsive Design:
-   - Works seamlessly across desktop and mobile platforms.
+## Folder Structure
+```
+Zerodha-Kite-Clone/
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Main application pages
+│   ├── store/           # Redux store (if applicable)
+│   ├── assets/          # Static assets
+│   ├── hooks/           # Custom React hooks
+│   ├── utils/           # Utility functions
+│   └── App.jsx          # Main application component
+├── public/              # Static public files
+├── package.json         # Project metadata and dependencies
+└── vite.config.js       # Vite configuration file
+```
 
-Technologies Used
-- Frontend: React.js, HTML, CSS, JavaScript (with Vite as the build tool).
-- Backend: Node.js, Express.js.
-- Database: MongoDB (or any database of your choice).
-- Charting Library: Chart.js or D3.js for dynamic graphs
+## Deployment
+To deploy the project:
+1. Build the project:
+   ```bash
+   npm run build  # or yarn build
+   ```
+2. Deploy to a hosting service like **Vercel, Netlify, or GitHub Pages**.
 
-Purpose
-The Zerodha Clone is a practice project to enhance skills in:
-- Building modern web applications with React and Node.js.
-- Implementing dashboards with an intuitive UI/UX.
-- Developing scalable and secure full-stack applications.
+## License
+This project is licensed under the **MIT License**.
+
+## Author
+- **DEEP**
+- GitHub: [DEEP13-2-5](https://github.com/DEEP13-2-5)
+
